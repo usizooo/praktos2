@@ -65,6 +65,7 @@ do
             if (num % a == 0) Console.Write("{0} ", a);
         }
         
+        Console.WriteLine("\n");
         Console.WriteLine("Выберете программу заново: \n1.Угадай число \n2.Таблица умножения \n3.Вывод делителей числа \n4.Выход из меню");
     }
 } while (operation < 4);
